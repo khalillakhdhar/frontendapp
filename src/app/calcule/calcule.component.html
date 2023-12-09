@@ -1,0 +1,10 @@
+<h1>calcule de factoriel</h1>
+<form (submit)="factoriel()">
+    <div>
+        <label for="nombre">Nombre</label>
+        <input type="number" min="1" [(ngModel)]="n" id="nombre" name="nombre" />
+    </div>
+    <div>
+        <button  type="submit">Envoyer</button>
+    </div>
+</form>

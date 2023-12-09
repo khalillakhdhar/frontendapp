@@ -7,13 +7,15 @@
 </div>
 <!-- formulaire avec nom et prenom-->
 <form>
+    <div><h1>Bienvenu {{nom+ " "+prenom}}</h1></div>
     <div>
+
         <label for="nom">Nom</label>
-        <input type="text"  id="nom" name="nom" />
+        <input type="text" [(ngModel)]="nom"  id="nom" name="nom" />
     </div>
     <div>
         <label for="prenom">Prenom</label>
-        <input type="text" id="prenom" name="prenom" />
+        <input type="text" [(ngModel)]="prenom" id="prenom" name="prenom" />
     </div>
     <div>
         <button type="submit">Envoyer</button>
