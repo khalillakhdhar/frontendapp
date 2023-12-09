@@ -1,0 +1,14 @@
+<!--formulaire de verification de divisibilité de x et y-->
+ <form (submit)="divisibilite()"> 
+        <div>
+            <label for="x">x</label>
+            <input type="number" min="1" [(ngModel)]="x" id="x" name="x" />
+        </div>
+        <div>
+            <label for="y">y</label>
+            <input type="number" min="1" [(ngModel)]="y" id="y" name="y" />
+        </div>
+        <div>
+            <button type="submit">Envoyer</button>
+        </div>
+    </form>

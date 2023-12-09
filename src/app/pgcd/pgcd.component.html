@@ -1,0 +1,14 @@
+<!-- formulaire de pgcd de a et b-->
+<form (submit)="pgcd()">
+    <div>
+        <label for="a">a</label>
+        <input type="number" min="1" [(ngModel)]="a" id="a" name="a" />
+    </div>
+    <div>
+        <label for="b">b</label>
+        <input type="number" min="1" [(ngModel)]="b" id="b" name="b" />
+    </div>
+    <div>
+        <button type="submit">Envoyer</button>
+    </div>
+</form>

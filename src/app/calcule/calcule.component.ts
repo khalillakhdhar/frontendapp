@@ -19,5 +19,13 @@ export class CalculeComponent {
     }
     alert("le factoriel de "+this.n+" est "+this.f);
   }
+  /*
+  le pgcd est le plus grand diviseur commun entre deux nombres qui se calcule comme suit:
+  pgcd(a,b)=>
+  tant que a!=b faire
+  si a>b alors
+  a=a-b;
+  sinon b=b-a;
+  */
 
 }
